@@ -10,5 +10,6 @@ public interface IFuncionarioRepository
     void Atualizar(Funcionario funcionario);
     void Remover(int id);
     bool VerificarSeEmailExiste(string email);
+    Funcionario? BuscarPorEmail(string email);
 }
 

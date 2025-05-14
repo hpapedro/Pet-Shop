@@ -6,13 +6,14 @@ POST {{url_base}}/registrar
 Content-Type: application/json
 
 {
-    "Nome": "Melo",
-    "Cargo": "User",
-    "CPF": "987654321",
-    "Email": "melo@gmail.com",
-    "Telefone": "(41) 88888-8888",
-    "DataAdmissao": "2025-05-19",
-    "Salario": 4000
+    "Nome": "pedro",
+    "Cargo": "Atendente",
+    "CPF": "06376251960",
+    "Email": "user@gmail.com",
+    "Senha": "admin123",
+    "Telefone": "(41) 9999-9999",
+    "DataAdmissao": "2025-11-03",
+    "Salario": 4000.00
 }
 
 
@@ -39,6 +40,6 @@ Content-Type: application/json
 }
 
 ### 6. Deletar Funcionário
-DELETE {{url_base}}/deletar/7
+DELETE {{url_base}}/deletar/4
 
 

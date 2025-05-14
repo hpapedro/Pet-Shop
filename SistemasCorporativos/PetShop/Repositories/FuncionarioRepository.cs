@@ -64,5 +64,10 @@ namespace PetShop.Repository
         {
             return _context.Funcionarios.Any(f => f.Email.ToUpper() == email.ToUpper());
         }
+
+        public Funcionario? BuscarPorEmail(string email)
+        {
+            return _context.Funcionarios.FirstOrDefault(f => f.Email.ToUpper() == email.ToUpper());
+        }
     }
 }
