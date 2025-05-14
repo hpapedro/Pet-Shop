@@ -1,0 +1,48 @@
+@url_base = http://localhost:5212/api/produto
+@gerente_token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1lIjoidXNlckBnbWFpbC5jb20iLCJodHRwOi8vc2NoZW1hcy5taWNyb3NvZnQuY29tL3dzLzIwMDgvMDYvaWRlbnRpdHkvY2xhaW1zL3JvbGUiOiJHZXJlbnRlIiwiZXhwIjoxNzQ3MjU4NTczfQ.b7zDZaOuv6WXVe422a2vOppHWXGacjWHkyqd243EuAI
+
+###CADASTRAR PRODUTOS (GERENTE)
+POST {{url_base}}/cadastrar
+Authorization: Bearer {{gerente_token}}
+Content-Type: application/json
+
+{
+  "nome": "Ração media",
+  "descricao": "Ração para cães bons",
+  "categoria": "Alimentos",
+  "preco": 120.50,
+  "quantidadeEmEstoque": 30,
+  "dataCadastro": "2025-05-14T00:00:00",
+  "fornecedor": "Fornecedor PetLife"
+}
+
+###LISTAR QUALQUER UM
+GET {{url_base}}/listar
+
+###BUSCAR POR ID (GERENTES)
+GET {{url_base}}/4
+Authorization: Bearer {{gerente_token}}
+
+###ATUALIZAR(GERENTE)
+PUT {{url_base}}/atualizar/2
+Content-Type: application/json
+Authorization: Bearer {{gerente_token}}
+
+{
+  "id": 2,
+  "nome": "Ração Premium podre",
+  "descricao": "Ração para cães podres - nova fórmula",
+  "categoria": "Alimentos",
+  "preco": 135.00,
+  "quantidadeEmEstoque": 25,
+  "dataCadastro": "2025-05-15T00:00:00",
+  "fornecedor": "Fornecedor PetLife"
+}
+
+###DELETAR PRODUTO (GERENTE0
+DELETE {{url_base}}/remover/3
+Authorization: Bearer {{gerente_token}}
+
+
+
+

@@ -8,5 +8,5 @@
 6. **Máquinas de estados para vendas:** Status do pedido (no carrinho, pagamento pendente, pago, entregue).
 7. **Gestão de contas a pagar:** Controle de despesas com fornecedores, água, luz, aluguel, etc.
 8. **Gestão de contas a receber:** Controle do dinheiro recebido pelas vendas e eventuais inadimplências.
-9. **Gestão de funcionários:** Cadastro e gerenciamento de atendentes, veterinários e cuidadores.
+9. **Gestão de funcionários:** Cadastro e gerenciamento de atendentes, e gerentes.
 10. **Relatórios de contabilidade:** Relatórios de entradas, saídas, lucros e balanços mensais.
