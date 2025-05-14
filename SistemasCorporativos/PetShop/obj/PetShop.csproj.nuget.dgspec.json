@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "/Users/pedroalves/Desktop/Pet-Shop/SistemasCorporativos/PetShop/PetShop.csproj": {}
+    "C:\\Users\\PEDROHENRIQUEPICANÇO\\Documents\\Pet-Shop\\SistemasCorporativos\\PetShop\\PetShop.csproj": {}
   },
   "projects": {
-    "/Users/pedroalves/Desktop/Pet-Shop/SistemasCorporativos/PetShop/PetShop.csproj": {
+    "C:\\Users\\PEDROHENRIQUEPICANÇO\\Documents\\Pet-Shop\\SistemasCorporativos\\PetShop\\PetShop.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/pedroalves/Desktop/Pet-Shop/SistemasCorporativos/PetShop/PetShop.csproj",
+        "projectUniqueName": "C:\\Users\\PEDROHENRIQUEPICANÇO\\Documents\\Pet-Shop\\SistemasCorporativos\\PetShop\\PetShop.csproj",
         "projectName": "PetShop",
-        "projectPath": "/Users/pedroalves/Desktop/Pet-Shop/SistemasCorporativos/PetShop/PetShop.csproj",
-        "packagesPath": "/Users/pedroalves/.nuget/packages/",
-        "outputPath": "/Users/pedroalves/Desktop/Pet-Shop/SistemasCorporativos/PetShop/obj/",
+        "projectPath": "C:\\Users\\PEDROHENRIQUEPICANÇO\\Documents\\Pet-Shop\\SistemasCorporativos\\PetShop\\PetShop.csproj",
+        "packagesPath": "C:\\Users\\PEDROHENRIQUEPICANÇO\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\PEDROHENRIQUEPICANÇO\\Documents\\Pet-Shop\\SistemasCorporativos\\PetShop\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/pedroalves/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\PEDROHENRIQUEPICANÇO\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
@@ -43,6 +43,22 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.*, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.*, )"
+            },
+            "Pomelo.EntityFrameworkCore.MySql": {
+              "target": "Package",
+              "version": "[8.*, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.6.2, )"
@@ -67,7 +83,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.407/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.406/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

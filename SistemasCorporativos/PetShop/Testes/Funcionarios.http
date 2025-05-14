@@ -1,0 +1,55 @@
+@url_base = http://localhost:5212/PetShop
+
+### 1. Testar Conexão Básica (sem autenticação)
+POST http://localhost:5212/api/funcionarios/registrar/funcionarios
+Content-Type: application/json
+
+{
+    "Nome": "Admin Teste",
+    "Cargo": "Administrador",
+    "CPF": "123.456.789-00",
+    "Email": "admin@petshop.com",
+    "Telefone": "(11) 99999-9999",
+    "DataAdmissao": "2025-05-13T00:00:00",
+    "Salario": 5000.00
+}
+
+
+### 3. Listar Funcionários
+GET {{url_base}}/funcionarios/listar/funcionarios
+
+### 4. Buscar Funcionário por ID
+GET {{url_base}}/funcionarios/buscar/1
+
+### 5. Atualizar Funcionário (Admin)
+PUT {{url_base}}/funcionarios/atualizar/1
+Content-Type: application/json
+
+{
+    "Id": 1,
+    "Nome": "Admin Teste Atualizado",
+    "Cargo": "Gerente",
+    "CPF": "123.456.789-00",
+    "Email": "admin_updated@petshop.com",
+    "Telefone": "(11) 98888-8888",
+    "DataAdmissao": "2025-05-13T00:00:00",
+    "Salario": 5500.00
+}
+
+### 6. Deletar Funcionário
+DELETE {{url_base}}/funcionarios/deletar/1
+
+### 7. Login de Usuário (Admin)
+POST {{url_base}}/auth/login
+Content-Type: application/json
+
+{
+    "Email": "admin@petshop.com",
+    "Senha": "admin"
+}
+
+### 8. Erro ao Buscar Funcionário Inexistente
+GET {{url_base}}/funcionarios/buscar/999
+
+### 9. Erro ao Deletar Funcionário Inexistente
+DELETE {{url_base}}/funcionarios/deletar/999
