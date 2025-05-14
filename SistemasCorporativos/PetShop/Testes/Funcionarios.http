@@ -7,7 +7,7 @@ Content-Type: application/json
 
 {
     "Nome": "pedro",
-    "Cargo": "Atendente",
+    "Cargo": "Gerente",
     "CPF": "06376251960",
     "Email": "user@gmail.com",
     "Senha": "admin123",
@@ -25,16 +25,16 @@ GET {{url_base}}/listar
 GET {{url_base}}/buscar/6
 
 ### 5. Atualizar Funcionário (Admin)
-PUT {{url_base}}/atualizar/9
+PUT {{url_base}}/atualizar/1
 Content-Type: application/json
 
 {
-    "Id":9,
-    "Nome": "User Teste Atualizado",
-    "Cargo": "Sócio",
-    "CPF": "123456789",
-    "Email": "melo_update@petshop.com",
-    "Telefone": "(11) 98888-8888",
+    "Id":1,
+    "Nome": "Gerente Teste Atualizado",
+    "Cargo": "Gerente",
+    "CPF": "06376251960",
+    "Email": "user@gmail.com",
+    "Telefone": "(41) 98410-8182",
     "DataAdmissao": "2025-05-12T00:00:00",
     "Salario": 10000.00
 }

@@ -3,6 +3,6 @@ POST {{url_base}}/login
 Content-Type: application/json
 
 {
-  "Email": "users@gmail.com",
+  "Email": "user@gmail.com",
   "Senha": "admin123"
 }
