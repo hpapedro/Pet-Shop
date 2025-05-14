@@ -16,7 +16,7 @@ namespace PetShop.Controllers
         }
 
         // POST para registrar um novo funcionário
-        [HttpPost("registrar/funcionarios")]
+        [HttpPost("registrar")]
         public ActionResult<Funcionario> CadastrarFuncionario([FromBody] Funcionario funcionario)
         {
             if (funcionario == null)
@@ -41,7 +41,7 @@ namespace PetShop.Controllers
         }
 
         // GET para listar todos os funcionários
-        [HttpGet("listar/funcionarios")]
+        [HttpGet("listar")]
         public ActionResult<IEnumerable<Funcionario>> ListarFuncionarios()
         {
             var funcionarios = _funcionarioRepository.ListarTodos();
@@ -60,7 +60,7 @@ namespace PetShop.Controllers
                 return NotFound("Funcionário não encontrado");
 
             _funcionarioRepository.Atualizar(funcionario);
-            return NoContent();
+            return Ok("Funcionário atualizado com sucesso");
         }
 
         // DELETE para remover um funcionário
@@ -72,7 +72,7 @@ namespace PetShop.Controllers
                 return NotFound("Funcionário não encontrado");
 
             _funcionarioRepository.Remover(id);
-            return NoContent();
+            return Ok("Funcionário Deletado com sucesso!");
         }
     }
 }

@@ -2588,19 +2588,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\PEDROHENRIQUEPICANÇO\\.nuget\\packages\\": {}
+    "C:\\Users\\pedro\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\PEDROHENRIQUEPICANÇO\\Documents\\Pet-Shop\\SistemasCorporativos\\PetShop\\PetShop.csproj",
+      "projectUniqueName": "C:\\Users\\pedro\\Documents\\Pet-Shop\\SistemasCorporativos\\PetShop\\PetShop.csproj",
       "projectName": "PetShop",
-      "projectPath": "C:\\Users\\PEDROHENRIQUEPICANÇO\\Documents\\Pet-Shop\\SistemasCorporativos\\PetShop\\PetShop.csproj",
-      "packagesPath": "C:\\Users\\PEDROHENRIQUEPICANÇO\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\PEDROHENRIQUEPICANÇO\\Documents\\Pet-Shop\\SistemasCorporativos\\PetShop\\obj\\",
+      "projectPath": "C:\\Users\\pedro\\Documents\\Pet-Shop\\SistemasCorporativos\\PetShop\\PetShop.csproj",
+      "packagesPath": "C:\\Users\\pedro\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\pedro\\Documents\\Pet-Shop\\SistemasCorporativos\\PetShop\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\PEDROHENRIQUEPICANÇO\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\pedro\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
@@ -2669,7 +2669,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.406/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.409/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
