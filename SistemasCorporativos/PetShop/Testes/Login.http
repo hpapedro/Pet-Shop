@@ -1,0 +1,8 @@
+@url_base = http://localhost:5212/api/auth
+POST {{url_base}}/login
+Content-Type: application/json
+
+{
+  "Email": "user@gmail.com",
+  "Senha": "admin123"
+}

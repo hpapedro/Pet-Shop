@@ -1,0 +1,4 @@
+@url_base = http://localhost:5212/api/produto
+
+###ESTOQUE
+GET {{url_base}}/estoque
