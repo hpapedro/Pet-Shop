@@ -43,8 +43,8 @@ public class ProdutoRepository : IProdutoRepository
             existente.QuantidadeEmEstoque = produto.QuantidadeEmEstoque;
             existente.DataCadastro = produto.DataCadastro;
             existente.Fornecedor = produto.Fornecedor;
-    
-            _context.SaveChanges(); 
+
+            _context.SaveChanges();
         }
     }
 
@@ -56,7 +56,18 @@ public class ProdutoRepository : IProdutoRepository
             _context.Produtos.Remove(produto);
             _context.SaveChanges();
         }
-        
+
+    }
+
+    public IEnumerable<object> ListarEstoqueSimplificado()
+    {
+        return _context.Produtos
+            .Select(p => new
+            {
+                p.Nome,
+                p.QuantidadeEmEstoque
+            })
+            .ToList<object>();
     }
 
 }

@@ -36,7 +36,7 @@ namespace PetShop.Controllers
             return Unauthorized("Usuário ou senha inválidos");
 
             if (user.Cargo != Role.Gerente)
-            return Unauthorized("Login Efetuado com sucesso");
+            return Unauthorized("Acesso permitido apenas para gerentes");
 
             var Claims = new[]
             {

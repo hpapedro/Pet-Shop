@@ -2896,19 +2896,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\MagnaTI\\.nuget\\packages\\": {}
+    "/Users/pedroalves/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\MagnaTI\\Desktop\\Pet-Shop\\SistemasCorporativos\\PetShop\\PetShop.csproj",
+      "projectUniqueName": "/Users/pedroalves/Desktop/Pet-Shop/SistemasCorporativos/PetShop/PetShop.csproj",
       "projectName": "PetShop",
-      "projectPath": "C:\\Users\\MagnaTI\\Desktop\\Pet-Shop\\SistemasCorporativos\\PetShop\\PetShop.csproj",
-      "packagesPath": "C:\\Users\\MagnaTI\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\MagnaTI\\Desktop\\Pet-Shop\\SistemasCorporativos\\PetShop\\obj\\",
+      "projectPath": "/Users/pedroalves/Desktop/Pet-Shop/SistemasCorporativos/PetShop/PetShop.csproj",
+      "packagesPath": "/Users/pedroalves/.nuget/packages/",
+      "outputPath": "/Users/pedroalves/Desktop/Pet-Shop/SistemasCorporativos/PetShop/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\MagnaTI\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "/Users/pedroalves/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
@@ -2981,7 +2981,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.409/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.407/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

@@ -40,13 +40,13 @@ namespace PetShop.Controllers
             var produto = _repository.BuscarPorId(id);
             if (produto == null)
                 return NotFound("Produto não Encontrado");
-            
+
             return Ok(produto);
         }
 
         [HttpPut("atualizar/{id}")]
         [Authorize(Roles = "Gerente")]
-        public ActionResult Atualizar (int id, [FromBody] Produto produto)
+        public ActionResult Atualizar(int id, [FromBody] Produto produto)
         {
             if (id != produto.Id)
                 return BadRequest("Ids não correspondem");
@@ -56,7 +56,7 @@ namespace PetShop.Controllers
                 return NotFound("Produto não encontrado");
 
             _repository.Atualizar(produto);
-                return Ok(produto);
+            return Ok(produto);
         }
 
         [HttpDelete("remover/{id}")]
@@ -69,6 +69,14 @@ namespace PetShop.Controllers
 
             _repository.Remover(id);
             return Ok("Produto Deletado com sucesso");
+        }
+
+        [HttpGet("estoque")]
+        [AllowAnonymous]
+        public ActionResult<IEnumerable<object>> ListarEstoque()
+        {
+            var estoque = _repository.ListarEstoqueSimplificado();
+            return Ok(estoque);
         }
     }
 }
