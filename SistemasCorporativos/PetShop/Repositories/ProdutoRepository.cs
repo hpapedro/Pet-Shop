@@ -64,6 +64,7 @@ public class ProdutoRepository : IProdutoRepository
         return _context.Produtos
             .Select(p => new
             {
+                p.Id,
                 p.Nome,
                 p.QuantidadeEmEstoque
             })

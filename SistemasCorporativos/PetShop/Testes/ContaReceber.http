@@ -1,0 +1,23 @@
+@url_base = http://localhost:5212/api/contasReceber
+
+### CADASTRAR
+POST {{url_base}}/cadastrar
+Content-Type: application/json
+
+{
+  "descricao": "Pagamento de tosa",
+  "valor": 150.00,
+  "dataVencimento": "2025-06-10",
+  "recebido": false,
+  "cliente": "João da Silva"
+}
+
+###
+
+### LISTAR TODAS
+GET {{url_base}}/listar
+
+###
+
+### MARCAR COMO PAGA
+PUT {{url_base}}/receber/2

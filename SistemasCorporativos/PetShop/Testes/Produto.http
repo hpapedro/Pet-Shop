@@ -1,12 +1,12 @@
 @url_base = http://localhost:5212/api/produto
-@gerente_token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1lIjoidXNlckBnbWFpbC5jb20iLCJodHRwOi8vc2NoZW1hcy5taWNyb3NvZnQuY29tL3dzLzIwMDgvMDYvaWRlbnRpdHkvY2xhaW1zL3JvbGUiOiJHZXJlbnRlIiwiZXhwIjoxNzQ4NDYzNDc1fQ.MbtZGN_e7hLbgJ-mD15ixbS8u47aawSgF54tZ_MBR3U
+@gerente_token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1lIjoidXNlckBnbWFpbC5jb20iLCJodHRwOi8vc2NoZW1hcy5taWNyb3NvZnQuY29tL3dzLzIwMDgvMDYvaWRlbnRpdHkvY2xhaW1zL3JvbGUiOiJHZXJlbnRlIiwiZXhwIjoxNzQ4NTMyODY2fQ.RrPl1PzK0NT5CTy10P6DrcOLJVVM8ho9pOc_tfw5pWM
 ###CADASTRAR PRODUTOS (GERENTE)
 POST {{url_base}}/cadastrar
 Authorization: Bearer {{gerente_token}}
 Content-Type: application/json
 
 {
-  "nome": "Ração media",
+  "nome": "Ração Grande",
   "descricao": "Ração para cães bons",
   "categoria": "Alimentos",
   "preco": 150.50,
@@ -30,10 +30,10 @@ Authorization: Bearer {{gerente_token}}
 {
   "id": 2,
   "nome": "Ração Grande",
-  "descricao": "Ração para cães bons",
+  "descricao": "Ração",
   "categoria": "Alimentos",
   "preco": 135.00,
-  "quantidadeEmEstoque": 25,
+  "quantidadeEmEstoque": 60,
   "dataCadastro": "2025-05-15T00:00:00",
   "fornecedor": "Fornecedor PetLife"
 }
@@ -42,8 +42,6 @@ Authorization: Bearer {{gerente_token}}
 DELETE {{url_base}}/remover/3
 Authorization: Bearer {{gerente_token}}
 
-###ESTOQUE
-GET {{url_base}}/estoque
 
 
 

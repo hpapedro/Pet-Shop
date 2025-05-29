@@ -1,0 +1,7 @@
+@url_base = http://localhost:5212/api/relatorios
+
+### Obter total de entradas
+GET {{url_base}}/total-entradas
+
+### Obter total de saídas
+GET {{url_base}}/total-saidas

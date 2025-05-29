@@ -1,0 +1,33 @@
+@url_base = http://localhost:5212/api/vendas
+
+### POST - Cadastrar venda
+POST {{url_base}}/cadastrar
+Content-Type: application/json
+
+{
+  "clienteNome": "João da Silva",
+  "itens": [
+    {
+      "produtoId": 2,
+      "quantidade": 10
+    }
+  ]
+}
+
+### LISTAR VENDA
+GET {{url_base}}/Listar
+
+### BUSCAR POR ID
+GET {{url_base}}/8
+
+### Atualizar status da venda
+### 0 = NoCarrinho 1 = PagamentoPendente 2 = Pago 3 = Entrege
+PUT {{url_base}}/atualizarStatus/8
+Content-Type: application/json
+
+"0"
+
+### NOTA FISCAL
+GET {{url_base}}/notaFiscal/10
+
+

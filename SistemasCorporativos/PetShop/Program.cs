@@ -12,6 +12,12 @@ var builder = WebApplication.CreateBuilder(args);
 //Repositorios
 builder.Services.AddScoped<IFuncionarioRepository, FuncionarioRepository>();
 builder.Services.AddScoped<IProdutoRepository, ProdutoRepository>();
+builder.Services.AddScoped<IVendaRepository, VendaRepository>();
+builder.Services.AddScoped<IContaPagarRepository, ContaPagarRepository>();
+builder.Services.AddScoped<IContaReceberRepository, ContaReceberRepository>();
+builder.Services.AddScoped<IRelatorioRepository, RelatorioRepository>();
+
+
 
 //Chave JWT
 var chaveJwt = builder.Configuration["JwtSettings:SecretKey"];

@@ -1,0 +1,19 @@
+@url_base = http://localhost:5212/api/contasPagar
+
+### CADASTRAR CONTA
+POST {{url_base}}/cadastrar
+Content-Type: application/json
+
+{
+  "descricao": "Conta de agua",
+  "valor": 230.50,
+  "dataVencimento": "2025-06-10",
+  "pago": false,
+  "fornecedor": "Sanepar"
+}
+
+### LISTAR TODAS AS CONTAS
+GET {{url_base}}/listar
+
+### PAGAR CONTA
+PUT {{url_base}}/pagar/1

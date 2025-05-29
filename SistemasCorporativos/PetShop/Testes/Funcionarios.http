@@ -1,7 +1,7 @@
 @url_base = http://localhost:5212/api/funcionarios
 
 
-### 1. Testar Conexão Básica (sem autenticação)
+### CRIAR USUARIO
 POST {{url_base}}/registrar
 Content-Type: application/json
 
