@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "o6eLSYbgqlo=",
+  "dgSpecHash": "uAA7C6goYg8=",
   "success": true,
-  "projectFilePath": "/Users/pedroalves/Desktop/Pet-Shop/SistemasCorporativos/PetShop/PetShop.csproj",
+  "projectFilePath": "/Users/pedroalves/Desktop/Pet-Shop 15.57.47/SistemasCorporativos/PetShop/PetShop.csproj",
   "expectedPackageFiles": [
     "/Users/pedroalves/.nuget/packages/humanizer.core/2.14.1/humanizer.core.2.14.1.nupkg.sha512",
     "/Users/pedroalves/.nuget/packages/microsoft.aspnetcore.authentication.jwtbearer/8.0.16/microsoft.aspnetcore.authentication.jwtbearer.8.0.16.nupkg.sha512",

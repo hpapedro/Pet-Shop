@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/pedroalves/Desktop/Pet-Shop/SistemasCorporativos/PetShop/PetShop.csproj": {}
+    "/Users/pedroalves/Desktop/Pet-Shop 15.57.47/SistemasCorporativos/PetShop/PetShop.csproj": {}
   },
   "projects": {
-    "/Users/pedroalves/Desktop/Pet-Shop/SistemasCorporativos/PetShop/PetShop.csproj": {
+    "/Users/pedroalves/Desktop/Pet-Shop 15.57.47/SistemasCorporativos/PetShop/PetShop.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/pedroalves/Desktop/Pet-Shop/SistemasCorporativos/PetShop/PetShop.csproj",
+        "projectUniqueName": "/Users/pedroalves/Desktop/Pet-Shop 15.57.47/SistemasCorporativos/PetShop/PetShop.csproj",
         "projectName": "PetShop",
-        "projectPath": "/Users/pedroalves/Desktop/Pet-Shop/SistemasCorporativos/PetShop/PetShop.csproj",
+        "projectPath": "/Users/pedroalves/Desktop/Pet-Shop 15.57.47/SistemasCorporativos/PetShop/PetShop.csproj",
         "packagesPath": "/Users/pedroalves/.nuget/packages/",
-        "outputPath": "/Users/pedroalves/Desktop/Pet-Shop/SistemasCorporativos/PetShop/obj/",
+        "outputPath": "/Users/pedroalves/Desktop/Pet-Shop 15.57.47/SistemasCorporativos/PetShop/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/pedroalves/.nuget/NuGet/NuGet.Config"

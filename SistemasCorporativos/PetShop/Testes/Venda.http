@@ -22,12 +22,12 @@ GET {{url_base}}/8
 
 ### Atualizar status da venda
 ### 0 = NoCarrinho 1 = PagamentoPendente 2 = Pago 3 = Entrege
-PUT {{url_base}}/atualizarStatus/8
+PUT {{url_base}}/atualizarStatus/1
 Content-Type: application/json
 
-"0"
+"3"
 
 ### NOTA FISCAL
-GET {{url_base}}/notaFiscal/10
+GET {{url_base}}/notaFiscal/1
 
 
